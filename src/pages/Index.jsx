@@ -30,8 +30,9 @@ return(
                     <ClickMe></ClickMe>
                 </div>  
         </div>
-        <div>
-        <img id="arrow2" width="100px" height="100px" src={process.env.PUBLIC_URL + '/img/arrowIcon.png'} />;
+        <div id="code">
+            <img id="codeInsertFix" width="100px" height="100px" src={process.env.PUBLIC_URL + '/img/codeInsert.png'} />;
+            <img id="arrow2" width="100px" height="100px" src={process.env.PUBLIC_URL + '/img/arrowIcon.png'} />;
         </div>
             <video id="backgroundVid" autoPlay loop muted>
                 <source src={BackgroundVid} type="video/mp4"/>

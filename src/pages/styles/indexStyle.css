@@ -77,9 +77,21 @@ img:hover{
 }
 
 #arrow2{
-    margin-left: 68vw;
+    margin-left: 35vw;
     margin-top: 10vh;
     transform: rotate(90deg);
+}
+#code{
+    display: flex;
+    flex-direction: row;
+    
+}
+#codeInsertFix{
+    margin-top: 10vh;
+    margin-left: 8vw;
+    width: 500px;
+    height: 500px;
+    transform: translate(1%, 0%);
 }
 #stayAway{
     bottom: 30vh;
