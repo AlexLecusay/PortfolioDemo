@@ -37,8 +37,6 @@ return(
             <video id="backgroundVid" autoPlay loop muted>
                 <source src={BackgroundVid} type="video/mp4"/>
             </video>
-
-
         <div id="stayAway">
             {/* <Link to="/projects">Projects<img width="50px" src="/img/projectsIcon.png"/></Link> */}
             {/* <Link to="/404">404</Link> */}
