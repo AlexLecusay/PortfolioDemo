@@ -19,7 +19,11 @@
     border-radius: 20px;
     margin-bottom: 25px;
     box-shadow: -10px 10px 5px  0 #292529b2;
-  
+    transition: 1s;
+}
+#btn:hover{
+  width: 200px;
+  background-color: green;
 }
 #fixBtn{
   padding-right: 25%;
