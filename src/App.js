@@ -11,6 +11,7 @@ import{
 
  //Importing Pages
  import MainPage from './pages/Index';
+ import Projects from './pages/Projects';
 //  import NotFoundPage from './pages/404';
 //  import Projects from './pages/Projects';
 
@@ -20,7 +21,7 @@ class App extends Component {
       <Router>
         <Switch>
         <Route exact path="/" component={MainPage} />
-        {/* <Route exact path="/projects" component={Projects} /> */}
+        <Route exact path="/projects" component={Projects} />
         {/* <Route exact path="/404" component={NotFoundPage}/> */}
         {/* <Redirect to="/404"/> */}
         </Switch>

@@ -31,7 +31,7 @@ food= {
             y: Math.floor(Math.random()*20)
         }
     }
-
+    
 setupInputs();
 
 function step(){

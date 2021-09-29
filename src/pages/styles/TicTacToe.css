@@ -1,0 +1,34 @@
+h1#ticTac{
+    margin: 2rem;
+}
+.board{
+    border: 1red solid #615550;
+    background: #6984cfa6;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template: repeat(3, 1fr)/ repeat(3, 1fr);
+    gap: 1rem;
+}
+.squares{
+    background-color: #c8c8c888;
+    border: none;
+    font-size: 5rem;
+    cursor: pointer;
+    outline: none;
+}
+.info-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#styleTicTacToe{
+    
+    background-color: #c8c8c888;
+    border-radius: 25px;
+    border: 5px solid rgba(0, 0, 0, 0.603);
+    box-shadow: -5px 8px 15px 15px #ece7e7a4;
+    padding-top: 2vh;
+    width: 500px;
+    padding: 2rem;
+}
+

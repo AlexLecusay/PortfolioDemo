@@ -3,6 +3,7 @@ import './styles/indexStyle.css';
 import { Link } from "react-router-dom";
 import BackgroundVid from "./styles/Background.mp4"
 import ClickMe from "./ClickMe";
+import Projects from "./Projects";
 
 const MainPage= ()=>{
 return(
@@ -34,14 +35,38 @@ return(
             <img id="codeInsertFix" src={process.env.PUBLIC_URL + '/img/codeInsert.png'} />
             <img id="arrow2" width="100px" height="100px" src={process.env.PUBLIC_URL + '/img/arrowIcon.png'} />
         </div>
-        <div id="snakeGame">
-            <h1></h1>
-
+        <div id="ticTacToe">
+            <Projects></Projects>
+            <img id="arrow3" width="100px" height="100px" src={process.env.PUBLIC_URL + '/img/arrowIcon.png'} />
+        </div>
+        <img id="spaceMe" width="150px" src={process.env.PUBLIC_URL + '/img/spaceMe.png'} />
+        <div id="fixLatinXSection">
+            <div id="LatinXTech">
+                <h2>LatinX.tech Project</h2>
+                <p id="centerCenter">-A full stack website built during the 2021 ShellHacks Hackathon.</p>
+                                <p id="textCenter">-Front end: React, JavaScript, Css, Html</p>
+                                <p id="textCenter">-Back end: MongoDB, Express,Node.js</p>
+                                <p id="textCenter">-This project has a full quiz that tests your knowledge on various LatinX topics. Which upon completion will display information of the LatinX tech person of the month, with a small biography. Also included is an interactive button mini game feature, and a subscription box that generates an automated email to you every month, with the new LatinX member of the month.</p>
+            </div>
+            <img id="arrow4" width="100px" height="100px" src={process.env.PUBLIC_URL + '/img/arrowIcon.png'} />
+            <a target="_blank" href="https://github.com/AlexLecusay/LatinX.tech"><img id="latinImg" src={process.env.PUBLIC_URL + '/img/latinImg.jpg'} /></a>
+        </div>
+        <div id="fixSnakeSection">
+            <a target="_blank" href="https://github.com/AlexLecusay/SnakeGame"><img id="snakeImg" src={process.env.PUBLIC_URL + '/img/snakeImg.jpg'} /></a>
+            <img id="arrow5" width="100px" height="100px" src={process.env.PUBLIC_URL + '/img/arrowIcon2.png'} />
+            <div id="Snake">
+                <h2>Snake Project</h2>
+                <p id="centerCenter">-For this webpage i built a Snake game </p>
+                                <p id="textCenter">-Front end: React, JavaScript, Css, Html</p>
+                                <p id="textCenter">-In this project you play the world famous Snake game, where you increasingly become bigger for every apple eaten. But be careful not to take a bite out of yourself!</p>
+            </div>
         </div>
             <video id="backgroundVid" autoPlay loop muted>
                 <source src={BackgroundVid} type="video/mp4"/>
             </video>
+            
         <div id="stayAway">
+            
             {/* <Link to="/projects">Projects<img width="50px" src="/img/projectsIcon.png"/></Link> */}
             {/* <Link to="/404">404</Link> */}
         </div>
